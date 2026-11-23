@@ -1,5 +1,5 @@
-import express from 'express';
-import { sledzenie } from './lib/sledzenie.js';
+import express from 'express'; //const express = require('express');
+import { sledzenie } from './lib/sledzenie.js'; //const { sledzenie } = require('./lib/sledzenie.js');
 import trasy from './lib/trasy.js';
 const PORT = 3000;
 const app = express();
